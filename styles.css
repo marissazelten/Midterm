@@ -1,0 +1,23 @@
+nav{
+    background-color: rgb(234, 82, 211);
+    color: white; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 60px;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+nav a{
+    text-decoration: none; 
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}

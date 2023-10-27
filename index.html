@@ -1,26 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mutts and Meow - Pet Shop</title>
-    <link rel="stylesheet" href="styles.css">
+	<title> Mutts and Meows </title>
+	<h1> Mutts and Meows </h1>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+<style>
+	#image{
+	  display: block;
+	  margin-top: 10%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	  height: 50%;
+	}
+	#start{
+		display: block;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+	#end{
+		display: block;
+		margin-left: auto;
+	    margin-right: auto;
+</style>
 <body>
+<nav>
+  <ul>
+  	<li><img id = "logo" src="Images/logo.jpg" width  = 10px></li>
+    <li><a href="">Home</a></li>
+    <li><a href="">About Us</a></li>
+    <li><a href="">Gallery</a></li>
+    <li><a href="">Contact Us</a></li>
+    <li><a href="">Store Info</a></li>
+    <li><a href="">Products</a></li>
+    <li><a href="">Testimonials</a></li>
+  </ul>
+</nav>
+	<div id = "slideshow"> 
+		<img id ="image" src=" " alt="Image Not Found">
+	</div>
+	<button id = "start">Start</button>
+	<button id = "end">Stop</button>
+	<script>
+		$(document).ready(function() {
+			var images = ["images/mm1.jpg", "images/mm2.jpg", "images/mm3.jpg", "images/mm4.jpg", "images/mm5.jpg", "images/mm6.jpg", "images/mm7.jpg", "images/mm8.jpg", "images/mm9.jpg", "images/mm10.jpg"];
+			var currImage = 0;
+			var interval; 
 
-    <nav>
-        <ul>
-            <a href="#"> Home</a>
-            <a href="#"> About Us</a>
-            <a href="#"> Testimonials</a>
-            <a href="#"> Gallery</a>
-            <a href="#"> Products</a>
-            <a href="#"> Store Info</a>
-            <a href="#"> Contact Us</a>
-        </ul>
-    </nav>
+			function start(){
+				interval = setInterval(function() {
+					$('#image').fadeOut(1000, function() {
+						$(this).attr("src", images[currImage]);
+						$(this).fadeIn(1000); 
+						currImage = (currImage + 1) % images.length; 
+					}); 
+				}, 3000); 
+			}
 
+			function stop(){
+				clearInterval(interval); 
+			}
 
+			$('#start').click(function() {
+				start(); 
+			}); 
+
+			$('#end').click(function() {
+				stop(); 
+			}); 
+			$('#image').attr("src", images[currImage]); 
+		}); 
+	</script>
 </body>
 </html>

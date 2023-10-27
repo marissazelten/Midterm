@@ -1,12 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title> Mutts and Meows </title>
-	<h1> Mutts and Meows </h1>
-	<link rel="stylesheet" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<style>
-	#image{
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutts & Meows</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+    #image{
 	  display: block;
 	  margin-top: 10%;
 	  margin-left: auto;
@@ -23,21 +25,25 @@
 		display: block;
 		margin-left: auto;
 	    margin-right: auto;
-</style>
+    }
+    </style>
+</head>
+
 <body>
-<nav>
-  <ul>
-  	<li><img id = "logo" src="Images/logo.jpg" width  = 10px></li>
-    <li><a href="">Home</a></li>
-    <li><a href="">About Us</a></li>
-    <li><a href="">Gallery</a></li>
-    <li><a href="">Contact Us</a></li>
-    <li><a href="">Store Info</a></li>
-    <li><a href="">Products</a></li>
-    <li><a href="">Testimonials</a></li>
-  </ul>
-</nav>
-	<div id = "slideshow"> 
+
+    <nav>
+        <ul>
+            <a href="index.html"> Home</a>
+            <a href="About.html"> About Us</a>
+            <a href="#"> Testimonials</a>
+            <a href="gallery.html"> Gallery</a>
+            <a href="products.html"> Products</a>
+            <a href="store-info.html"> Store Info</a>
+            <a href="contact-us.html"> Contact Us</a>
+        </ul>
+    </nav>
+
+    <div id = "slideshow"> 
 		<img id ="image" src=" " alt="Image Not Found">
 	</div>
 	<button id = "start">Start</button>
@@ -71,6 +77,12 @@
 			}); 
 			$('#image').attr("src", images[currImage]); 
 		}); 
-	</script>
+        </script>
+
+    <footer>
+        <p>&copy; 2023 Mutts & Meows</p>
+    </footer>
 </body>
 </html>
+
+

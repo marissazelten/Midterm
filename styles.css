@@ -242,7 +242,7 @@ table img {
     .dropbtn {
         background-color: rgb(234, 82, 211);
         color: white;
-        padding: 16px;
+        padding: 10px;
         font-size: 22px;
         border: none;
         cursor: pointer;

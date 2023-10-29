@@ -246,7 +246,6 @@ table img {
     nav {
         display: none;
     }
-    
     .dropbtn {
         background-color: rgb(234, 82, 211);
         color: white;
@@ -262,6 +261,7 @@ table img {
         text-align: left;
         display: flex;
       }
+    
       /* Dropdown button on hover & focus */
       .dropbtn:hover, .dropbtn:focus {
         background-color: rgb(167, 57, 151);
@@ -302,11 +302,6 @@ table img {
 
 body{
         font-size: 12px;
-    }
-
-    nav ul a{
-        font-size: 10px; 
-        margin: 8px;
     }
 
     .logo img{

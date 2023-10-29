@@ -205,7 +205,7 @@ table img {
 } 
 
 
-.dropdown-content {
+.dropdown {
     display: none;
 }
 
@@ -229,19 +229,12 @@ table img {
         vertical-align: middle;
         max-width: 25px;
         height: auto;
-    }
-    
-
+    }   
 }
 
 @media (max-width: 750px){
     body{
         font-size: 18px;
-    }
-    .logo img{
-        vertical-align: middle;
-        max-width: 25px;
-        height: auto;
     }
     nav {
         display: none;
@@ -261,7 +254,6 @@ table img {
         text-align: left;
         display: flex;
       }
-    
       /* Dropdown button on hover & focus */
       .dropbtn:hover, .dropbtn:focus {
         background-color: rgb(167, 57, 151);
@@ -299,14 +291,7 @@ table img {
 }
 
 @media (max-width: 580px){
-
-body{
+    body{
         font-size: 12px;
-    }
-
-    .logo img{
-        vertical-align: middle;
-        max-width: 25px;
-        height: auto;
     }
 }

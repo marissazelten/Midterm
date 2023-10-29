@@ -49,6 +49,7 @@ footer{
 
 
 /* slideshow styles */
+@media (max-width: 920px){
 .slideshow-container{
     display: flex;
     align-items: center;
@@ -116,8 +117,10 @@ h1{
     background-color: #6d00cd;
 
 }
+}
 
 /* about.html styles*/
+@media (max-width: 920px){
 .about-us-container{
     background-color: white;
     max-width: 1200px;
@@ -147,9 +150,11 @@ h1{
 .about-us-box:hover{
     background-color: rgb(234, 82, 211);
 }
+}
 
 
 /* mision.html styles*/
+@media (max-width: 920px){
 .mission-container{
     background-color: white;
     display: flex;
@@ -173,8 +178,10 @@ h1{
     max-width: 100%;
     max-height: 300px;
 }
+} 
 
 /* products.html styles */
+@media (max-width: 920px){
 .container {
     max-width: 1200px;
     margin: 20px auto;
@@ -199,6 +206,7 @@ table img{
     max-width: 200px;
     height: auto;
     object-fit: cover;
+}
 }
 
 

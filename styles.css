@@ -49,7 +49,6 @@ footer{
 
 
 /* slideshow styles */
-@media (max-width: 500px){
 .slideshow-container{
     display: flex;
     align-items: center;
@@ -71,7 +70,8 @@ footer{
 #image{
     padding-left: auto;
     max-width: 500px;
-    max-height: auto;    
+    max-height: auto;  
+    display: flex; 
 }
 
 .centered-text-onImg h1{
@@ -101,6 +101,7 @@ h1{
     margin: 0px;
     font-size: 30px;
     color: lightslategray;
+    display: flex; 
 }
 
 .contact-button{
@@ -117,10 +118,8 @@ h1{
     background-color: #6d00cd;
 
 }
-}
 
 /* about.html styles*/
-@media (max-width: 500px){
 .about-us-container{
     background-color: white;
     max-width: 1200px;
@@ -150,11 +149,9 @@ h1{
 .about-us-box:hover{
     background-color: rgb(234, 82, 211);
 }
-}
 
 
 /* mision.html styles*/
-@media (max-width: 500px){
 .mission-container{
     background-color: white;
     display: flex;
@@ -177,11 +174,9 @@ h1{
 .mission-img{
     max-width: 100%;
     max-height: 300px;
-}
 } 
 
 /* products.html styles */
-@media (max-width: 920px){
 .container {
     max-width: 1200px;
     margin: 20px auto;
@@ -190,6 +185,7 @@ h1{
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; 
 }
 
 table{
@@ -200,17 +196,15 @@ table{
 table td{
     padding: 20px;
     text-align: center;
+    display: flex; 
 }
 
 table img{
     max-width: 200px;
     height: auto;
     object-fit: cover;
+    display: flex; 
 }
-}
-
-
-@media (max-width: 920px){
 
     body{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -233,10 +227,6 @@ table img{
         height: auto;
     }
 
-    
-}
-
-@media (max-width: 750px){
     body{
         font-size: 18px;
     }
@@ -251,9 +241,7 @@ table img{
         max-width: 25px;
         height: auto;
     }
-}
 
-@media (max-width: 580px){
 
     body{
         font-size: 12px;
@@ -269,4 +257,3 @@ table img{
         max-width: 25px;
         height: auto;
     }
-}

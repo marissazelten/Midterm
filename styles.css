@@ -206,13 +206,15 @@ table img{
     display: flex; 
 }
 
+
+@media (max-width: 920px){
+
     body{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 15px;
         width: 100%;
         margin: 0px;
     }
-
     nav{
         height: auto;
     }
@@ -226,7 +228,14 @@ table img{
         max-width: 25px;
         height: auto;
     }
+    
 
+}
+
+@media (max-width: 750px){
+    body{
+        font-size: 18px;
+    }
     body{
         font-size: 18px;
     }
@@ -241,9 +250,12 @@ table img{
         max-width: 25px;
         height: auto;
     }
+    
+}
 
+@media (max-width: 580px){
 
-    body{
+body{
         font-size: 12px;
     }
 
@@ -257,25 +269,4 @@ table img{
         max-width: 25px;
         height: auto;
     }
-
-
-@media (max-width: 920px){
-
-    body{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-@@ -233,10 +227,6 @@ 
-
-
-}
-
-@media (max-width: 750px){
-    body{
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 580px){
-
-    body{
-        font-size: 12px;
 }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
       <style>
-pet0, pet1, pet2, pet3, pet4, pet5, pet6, pet7, pet8 {
+      pet0, pet1, pet2, pet3, pet4, pet5, pet6, pet7, pet8 {
   background-color: lightgrey;
   width: 225px;
   height: 400px;
@@ -20,7 +20,7 @@ pet0, pet1, pet2, pet3, pet4, pet5, pet6, pet7, pet8 {
   float: left;
   text-align: center;
 
-}
+  }
 
 h1 {
   text-align: center;
@@ -37,11 +37,7 @@ footer {
     text-align: center;
 }
 </style>
-<!doctype html>
-<html>
-<head>
 <meta charset="utf-8">
-
 
 </br>
 </br>
@@ -63,7 +59,6 @@ footer {
 
 </br> 
 
-
 </head>
 <body>
 
@@ -79,8 +74,38 @@ footer {
         <a href="contact-us.html"> Contact Us</a>
     </ul>
   </nav>
+  
+   <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"> <i class="fa fa-bars" style = "margin-left: 15px; height: fit-content;"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#"> &nbsp;</a>
+            <a href="index.html"> Home</a>
+            <a href="About.html"> About Us</a>
+            <a href="reviews.html"> Testimonials</a>
+            <a href="gallery.html"> Gallery</a>
+            <a href="products.html"> Products</a>
+            <a href="store-info.html"> Store Info</a>
+            <a href="contact-us.html"> Contact Us</a>
+        </div>
+    </div>
 
 <script>
+function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+    }
+  
 let pets = [
   {
     "name": "<h2> Bagel </h2>",
@@ -148,3 +173,4 @@ for(let i = 0; i < 9; i++) {
 </footer>
 
 </body>
+</html>

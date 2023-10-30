@@ -94,7 +94,6 @@ h1{
     text-align: center;
     padding: auto;
     border-radius: 10px;
-    
 }
 
 .slideshow-container h2{
@@ -114,6 +113,7 @@ h1{
     text-decoration: none;
     font-weight: bold;
 }
+
 .contact-button:hover{
     background-color: rgb(167, 57, 151);
 

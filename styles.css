@@ -139,8 +139,6 @@ h1{
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    flex-wrap: wrap;
-    min-width: 200px;
 }
 
 .about-us-img{
@@ -290,6 +288,10 @@ table img {
       
       /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
       .show {display:block;}
+
+      .about-us-box{ 
+          width: 100%;
+      }
 }
 
 @media (max-width: 580px){

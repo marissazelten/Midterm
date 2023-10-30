@@ -136,9 +136,11 @@ h1{
 .about-us-box{
     background-color: white;
     flex: 100%;
-    padding: auto;
+    padding: auto 5px;
     border-radius: 5px;
     text-align: center;
+    flex-wrap: wrap;
+    min-width: 200px;
 }
 
 .about-us-img{

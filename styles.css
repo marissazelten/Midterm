@@ -94,20 +94,19 @@ h1{
     text-align: center;
     padding: auto;
     border-radius: 10px;
-    background-color: lightgray;
     
 }
 
 .slideshow-container h2{
     margin: 0px;
     font-size: 30px;
-    color: lightslategray;
+    color: slategray;
     display: flex; 
 }
 
 .contact-button{
     margin-top: 35px;
-    background-color: #942def;
+    background-color: rgb(234, 82, 211);
     color: white;
     padding: auto;
     border: none;
@@ -116,7 +115,7 @@ h1{
     font-weight: bold;
 }
 .contact-button:hover{
-    background-color: #6d00cd;
+    background-color: rgb(167, 57, 151);
 
 }
 

@@ -42,9 +42,10 @@ body{
 footer{
     background-color: rgb(52, 51, 51); 
     color: white; 
-    padding: auto; 
+    padding: 15px auto; 
     text-align: center; 
     max-width: 100%;
+    footer: 15px 0px 15px 0px;
 }
 
 

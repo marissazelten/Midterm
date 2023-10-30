@@ -100,7 +100,7 @@ h1{
 .slideshow-container h2{
     margin: 0px;
     font-size: 30px;
-    color: slategray;
+    color: black;
     display: flex; 
 }
 
@@ -108,7 +108,7 @@ h1{
     margin-top: 35px;
     background-color: rgb(234, 82, 211);
     color: white;
-    padding: auto;
+    padding: 10px;
     border: none;
     border-radius: 5px;
     text-decoration: none;

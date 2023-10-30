@@ -136,7 +136,7 @@ h1{
 .about-us-box{
     background-color: white;
     flex: 100%;
-    padding: auto 5px;
+    padding: 10px;
     border-radius: 5px;
     text-align: center;
     flex-wrap: wrap;

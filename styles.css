@@ -289,7 +289,10 @@ table img {
       
       /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
       .show {display:block;}
-}
+    
+     .slideshow-container {
+         margin: 20px;
+    }
 
 @media (max-width: 580px){
     body{

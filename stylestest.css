@@ -317,16 +317,23 @@ table img {
     }
    
     .about-us-3-boxes{
-    display: flex;
-    justify-content: center;
-    width: 75%;
-    flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 75%;
+        flex-direction: column;
+        margin: auto;
     }
 
-.about-us-box{
-    flex: 75%;
-    padding: 10px;
-}
+    .about-us-box{
+        flex: 75%;
+        padding: 10px;
+        margin: auto;
+    }
+    .about-us-img{
+        max-width: auto;
+        max-height: 80px;
+    }
+
 }
 
 @media (max-width: 580px){
@@ -339,5 +346,8 @@ table img {
 
     .slideshow-container-item{
     height: 202px;
+    }
+    .about-us-3-boxes{
+        width: 90%;
     }
 }

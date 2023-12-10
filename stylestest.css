@@ -153,8 +153,8 @@ h1{
 }
 
 .about-us-img{
-    max-width: 50%;
-    max-height: auto;
+    max-width: auto;
+    max-height: 110px;
 }
 
 .about-us-box:hover{
@@ -315,6 +315,18 @@ table img {
     .slideshow-container-item{
     height: 266px;
     }
+   
+    .about-us-3-boxes{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    flex-direction: column;
+    }
+
+.about-us-box{
+    flex: 75%;
+    padding: 10px;
+}
 }
 
 @media (max-width: 580px){

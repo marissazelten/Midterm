@@ -333,6 +333,18 @@ table img {
         max-width: auto;
         max-height: 80px;
     }
+    .mission-container{
+        flex-direction: column;
+    }
+
+
+    .mission-items{
+        margin-right: 15px;
+    }
+
+    .mission-img{
+        max-height: 200px;
+    } 
 
 }
 

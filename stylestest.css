@@ -67,7 +67,7 @@ footer a:hover{
     height: auto;
     background-color: pink;
     border-radius: 20px;
-
+    height: 800px;
 }
 
 .slideshow-container-item{
@@ -75,6 +75,7 @@ footer a:hover{
     flex: 1;
     align-items: center;
     justify-content: space-between;
+    height: 800px;
 }
 
 #image{
@@ -240,6 +241,13 @@ table img {
         max-width: 25px;
         height: auto;
     }   
+    .slideshow-container{
+    height: 340px;
+    }
+
+.slideshow-container-item{
+    height: 340px;
+    }
 }
 
 @media (max-width: 750px){
@@ -301,11 +309,23 @@ table img {
     
      .slideshow-container {
          margin: 70px 20px 20px 20px;
+         height: 266px;
+    }
+
+    .slideshow-container-item{
+    height: 266px;
     }
 }
 
 @media (max-width: 580px){
     body{
         font-size: 15px;
+    }
+     .slideshow-container{
+    height: 202px;
+    }
+
+    .slideshow-container-item{
+    height: 202px;
     }
 }

@@ -362,4 +362,7 @@ table img {
     .about-us-3-boxes{
         width: 90%;
     }
+    .mission-items{
+        margin: auto, 15px;
+    }
 }
